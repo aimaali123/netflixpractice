@@ -1,0 +1,574 @@
+// @import '~bootstrap/scss/bootstrap';
+
+/* Navbar Styling */
+
+.nav-im{
+    width:130px;
+}
+.navbar-color{
+    background: linear-gradient(180deg, black, transparent);
+z-index: 10;
+width: 100%;
+position: absolute;
+}
+select{
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 6px 10px;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: #fff;
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+    // margin-right: 20px;
+    width: 129px;
+}
+.sign-style{
+height: 38px;
+position: relative;
+top: 9px;
+}
+// Home banner styling
+.home-banner{
+height: 100vh;
+overflow: hidden;
+position: absolute;
+    top: 0;
+    left:0;
+.our-story{
+    position: absolute;
+    left: 29%;
+    top: 35%;
+    z-index: 10;
+    color: white;
+width:600px
+}
+.our-story h1{
+font-size: 3.3rem;
+font-weight: 700;
+}
+.our-story span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 5rem;
+}
+.our-story p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    }
+
+.home-btn{
+    font-weight:bold;
+    width: 175px;
+    height: 79%;
+    position: relative;
+    top: 7px;
+    left: 101px;
+
+
+}
+.input-grp{
+   width: 240%; 
+padding: 14px 14px;
+}
+.background-im{
+    position: absolute;
+    background-color: rgba(0,0,0,.4);
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+img{
+   max-width:100%;
+
+}
+
+}
+// Login In Section
+.LogIn{
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top:0%;
+
+.holder{
+    position: absolute;
+    left: 33%;
+    top: 18%;
+    z-index: 10;
+    border-radius: 4px;
+    width: 30%;
+    height: 80%;
+    background-color:rgba(0,0,0,.75);
+    padding: 36px 28px;
+}
+input{
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    border: 0;
+}
+input:focus{
+    background-color: #5b5d5f;
+    color: #fff;
+    border-radius: 4px;
+    border-bottom: 2px solid #e87c03;
+    border: 0;
+    outline: 0;
+}
+.error-styling{
+    color: #e87c03;
+    margin-bottom: -6px;
+    padding: 6px 3px;
+    font-size: 13px;
+}
+}
+.form-check{
+    
+    input:checked {
+        background-color: #333;
+        border-color: #333;
+        color: black;
+    }
+    label{
+color: #b3b3b3;
+font-size: small;
+    }
+    
+}
+.sign-up-now{
+color:#b3b3b3;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+.form-floating>.form-control-plaintext~label::after, .form-floating>.form-control:focus~label::after, .form-floating>.form-control:not(:placeholder-shown)~label::after, .form-floating>.form-select~label::after {
+    background-color: transparent;
+}
+// Banner Styling
+.banner{
+    background-image: url("https://image.tmdb.org/t/p/original//hVMoqvXs5j9ffun56tZ5YhliSD9.jpg");
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+    color: #fff;
+    height: 582px;
+    object-fit: contain;
+    bottom: 73px;
+width: 100%;
+    .banner-content{
+        padding-top: 221px; //whole content move
+
+
+    }
+    .banner-btn{
+        padding: 0.5rem 2rem;
+    font-weight: bold;
+    outline: none;
+    border-radius: 0.2vw;
+    margin-right: 1rem; //buttons gap
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.banner-btn:hover {
+    background-color: #e6e6e6;
+    color: #000;
+    transition: all 0.2s;
+  }
+.banner-descrip{
+    width: 320px;
+    margin-top: 1.5rem;
+    line-height: 1.6rem;
+    position: absolute;
+    z-index: 999;
+}
+.banner-title{
+    font-weight: bold;
+}
+.banner-fadebottom {
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111 );
+    height: 7.4rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+}
+//List Styling
+.list{
+    position: relative;
+    background-color: black;
+    color: white;
+    bottom: 17px;
+    width: 100%;
+
+    >.row{   
+      margin-top: -3.5rem;
+      margin-bottom: 2.5rem;
+  }
+    
+.list-title{
+    margin: 19px;
+    margin-bottom: 0;
+}
+.row-posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px 0 20px 0;
+}
+.row-posters::-webkit-scrollbar {
+    display: none;
+  }
+.row-poster {
+    margin-right: 10px;
+    max-height: 100px;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: transform 0.45s;
+    width: 100%;
+    overflow-y: hidden;
+  }
+  
+  .row-poster:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  .row-posterLarge {
+    max-height: 250px;
+  }
+  
+  .row-posterLarge:hover {
+    opacity: 1;
+    transform: scale(1.09);
+  }
+}
+// Responsive webiste (Breakpoints)
+// For Mobile Phone
+@media (max-width: 480px) {
+    /* Navbar Styling */
+    .nav-im{
+        width:104px;
+    }
+    select{
+        margin: 7px 7px;
+        padding: 14px 8px;
+        width: 114px;
+    }
+    .sign-style{
+    height: 31px;
+    top: 8px;
+    width: 75px;
+    padding-top: 2px;
+}  
+// Home banner styling
+.home-banner{
+    .our-story{
+        left: 0%;
+        top: 23%;
+    width:100%;
+    }
+    .our-story h1{
+    font-size: 1.8rem;
+    }
+    .our-story span{
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+    .our-story p {
+        font-size: 1rem;
+    }
+    .home-btn{
+        width: 31%;
+    padding: 10px 0px;
+    margin: 11px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    }
+    .input-grp{
+       width: 100%; 
+    }
+
+    img{
+       max-width:100%;
+    height: 100vh;
+    }
+}
+    // Login In Section
+.LogIn{
+
+.holder{
+    left: 15%;
+    top: 14%;
+    width: 71%;
+}
+    } 
+    // Banner Styling
+.banner{
+    height: 444px;
+
+    .banner-content{
+        padding-top: 187px; //whole content move
+    }
+}
+  //List Styling
+.list{ 
+.list-title{
+ font-size: 1.5rem;
+}
+.row-poster {
+    margin-right: 2px;
+    max-height: 31px;
+  }
+  .row-posterLarge {
+    max-height: 343px;
+  }
+  
+}  
+  }
+  // Ipads and Tablets
+  @media (max-width: 768px) {
+    /* Navbar Styling */
+    .nav-im{
+        width:95px;
+    }
+    select{
+        margin: 8px 10px;
+        padding: 3px 8px;
+        width: 89px;
+    }
+    .sign-style{
+    height: 31px;
+    top: 8px;
+    width: 75px;
+    padding-top: 2px;
+}  
+// Home banner styling
+.home-banner{
+    .our-story{
+        left: 0%;
+        top: 28%;
+    width:100%;
+    }
+    .our-story h1{
+    font-size: 2rem;
+    }
+    .our-story span{
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+    .our-story p {
+        font-size: 1rem;
+    }
+    .home-btn{
+        width: 31%;
+    padding: 10px 0px;
+    margin: 11px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    }
+    .input-grp{
+       width: 100%; 
+    }
+
+    img{
+       max-width:100%;
+    height: 100vh;
+    }
+}
+    // Login In Section
+.LogIn{
+
+.holder{
+    left: 24%;
+    top: 14%;
+    width: 53%;
+}
+
+    } 
+    // Banner Styling
+.banner{
+    bottom: 72px;
+    height: 461px;
+
+    .banner-content{
+        padding-top: 187px; //whole content move
+    }
+}
+  //List Styling
+.list{ 
+.list-title{
+ font-size: 1.5rem;
+}
+.row-poster {
+    margin-right: 10px;
+    max-height: 100px;
+  }
+ 
+  .row-posterLarge {
+    max-height: 400px;
+  }
+  
+}  
+  }
+  // Small screen and Laptops
+  @media (min-width: 769px) and (max-width: 999px)   {
+     /* Navbar Styling */
+     .nav-im{
+        width:175px;
+    }
+    select{
+        margin: 8px 20px;
+        padding: 11px 8px;
+        width: 187px;
+    }
+    .sign-style{
+    height: 45px;
+    top: 9px;
+    width: 88px;
+    padding-top: 4px;
+}  
+// Home banner styling
+.home-banner{
+    .our-story{
+        left: 0%;
+        top: 28%;
+    width:100%;
+    }
+    .our-story h1{
+    font-size: 2rem;
+    }
+    .our-story span{
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+    .our-story p {
+        font-size: 1rem;
+    }
+    .home-btn{
+        width: 31%;
+    padding: 10px 0px;
+    margin: 11px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    }
+    .input-grp{
+       width: 60%; 
+       margin-left: 123px;
+    }
+
+    img{
+       max-width:100%;
+    height: 100vh;
+    }
+}
+    // Login In Section
+.LogIn{
+
+.holder{
+    left: 25%;
+    top: 18%;
+    width: 46%;
+    height: 70%;
+}
+.error-styling{
+    font-size: 18px;
+}
+.form-floating>.form-control{
+    font-size: 1.4rem;
+}
+    } 
+    // Banner Styling
+.banner{
+    bottom: 72px;
+    height: 461px;
+
+    .banner-content{
+        padding-top: 187px; //whole content move
+    }
+}
+  //List Styling
+.list{ 
+.list-title{
+ font-size: 1.5rem;
+}
+.row-poster {
+    margin-right: 10px;
+    max-height: 100px;
+  }
+ 
+  .row-posterLarge {
+    max-height: 400px;
+  }
+  
+}  
+  }
+//   //  Desktops and Large screen
+//     @media (max-width: 1024px) {
+//        /* Navbar Styling */
+//      .nav-im{
+//         width:175px;
+//     }
+//     select{
+//         margin: 8px 20px;
+//         padding: 11px 8px;
+//         width: 187px;
+//     }
+//     .sign-style{
+//     height: 45px;
+//     top: 9px;
+//     width: 88px;
+//     padding-top: 4px;
+// }  
+// // Home banner styling
+// .home-banner{
+//     .our-story{
+//         left: 0%;
+//         top: 28%;
+//     width:100%;
+//     }
+//     .our-story h1{
+//     font-size: 2rem;
+//     }
+//     .our-story span{
+//         font-size: 1.2rem;
+//         line-height: 3rem;
+//     }
+//     .our-story p {
+//         font-size: 1rem;
+//     }
+//     .home-btn{
+//         width: 31%;
+//     padding: 10px 0px;
+//     margin: 11px;
+//     position: relative;
+//     top: 0px;
+//     left: 0px;
+//     }
+//     .input-grp{
+//        width: 100%; 
+//     }
+
+//     img{
+//        max-width:100%;
+//     height: 100vh;
+//     }
+// }
+//       }
+
+
+
