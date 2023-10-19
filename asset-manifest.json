@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/netflixpractice/static/css/main.3ca1352f.css",
+    "main.js": "/netflixpractice/static/js/main.ae0c8dcf.js",
+    "static/js/787.06411a96.chunk.js": "/netflixpractice/static/js/787.06411a96.chunk.js",
+    "static/media/net.png": "/netflixpractice/static/media/net.b39480d09d45609d9d6f.png",
+    "index.html": "/netflixpractice/index.html",
+    "main.3ca1352f.css.map": "/netflixpractice/static/css/main.3ca1352f.css.map",
+    "main.ae0c8dcf.js.map": "/netflixpractice/static/js/main.ae0c8dcf.js.map",
+    "787.06411a96.chunk.js.map": "/netflixpractice/static/js/787.06411a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ca1352f.css",
+    "static/js/main.ae0c8dcf.js"
+  ]
+}
